@@ -31,7 +31,7 @@ const Header = ()=>{
 <div className="mobaile-mav">
 
 
-
+{/* this is only for mobaile view nav bar now visible life that on laptop view */}
 
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <Link to={"/"} className="navbar-brand font-color" href="#">Jobstar</Link>
@@ -57,7 +57,7 @@ const Header = ()=>{
 
 
 
-
+{/*  this is only 1024px aur more diviece can see this nav bar */}
 
 
 

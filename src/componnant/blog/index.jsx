@@ -24,6 +24,7 @@ const Blog = ()=>{
 
 <div className='carausal-blog'>
 
+{/* usnsig carousel for making website more intractive and UIF  */}
 
 <div id="carouselExampleCaptions" className="carousel slide carausal-blog1" data-ride="carousel">
   <ol className="carousel-indicators">

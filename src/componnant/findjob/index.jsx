@@ -6,7 +6,10 @@ import Header from "../header";
 import './index.css';
 import Filter from "../filter";
 import Footer from "../home5Footer";
-import ItJobs from "../itJobs";
+
+
+
+// use Cookies for get the Authorization to API
 
 
 
@@ -21,6 +24,13 @@ const Jobs = ()=>{
         userSearch:"",
         typeEmplayee:[],
         minPackege:[]
+
+        //  thease four componant represent to the 1.can see all data on api
+        //  2. user Search any type of jobs give some result 
+        //  3.  is a checkbox user checkbox can click checkboc will checked give some output for user
+        //  4. it is a radio button with a minimun sallary have a user they can click and give some result
+
+
     })
 
     const[newjobs,setjobs] = useState({
@@ -38,15 +48,20 @@ const Jobs = ()=>{
     const getAllJob = async()=>{
 
 
-         
+        //   the api fething for use async function
 
         const api = `https://apis.ccbp.in/jobs?employment_type=${allvalue.typeEmplayee}&minimum_package=${allvalue.minPackege}&search=${allvalue.userSearch}`;
 
         const option = {
 
+
+            //  usinsg a Get method
+
             method:"Get",
           headers:{
             Authorization:`Bearer ${token}`
+
+            //  give Authorization for API
           }
  
         }
@@ -55,6 +70,7 @@ const Jobs = ()=>{
 
             const response = await fetch(api,option);
 
+            //  fetch the api 
             const data = await response.json();
                          
 
@@ -64,6 +80,8 @@ const Jobs = ()=>{
                 setvalue({...allvalue,alljob:data.jobs});
 
                 setjobs({...newjobs,itjobs:data.jobs})
+
+                //  will can succenss the fetch api wi will get all data
                          
          
             }
@@ -82,6 +100,10 @@ console.log("the pasr code will be run");
 },[allvalue.userSearch,allvalue.typeEmplayee,allvalue.minPackege])
 
 
+
+
+//  search button function
+
 const userSearchJob =(e)=>{
 if(e.key === "Enter" || e.key === "Find Job"){
 
@@ -92,7 +114,7 @@ if(e.key === "Enter" || e.key === "Find Job"){
 
 }
 
-
+//  checkbox function
 const randerAllData = (value,isChecked)=>{
 
     if(isChecked === true){
@@ -106,6 +128,7 @@ const randerAllData = (value,isChecked)=>{
 
 }
 
+// radio button function
 
 const randerRadio = (value)=>{
 
@@ -166,11 +189,16 @@ const randerRadio = (value)=>{
 
 <h4>Type of Employment</h4>
 
+
+{/* send a props for Filter componant  send a (data)*/ }
+
 <Filter usergetData ={randerAllData} radioRander ={randerRadio}></Filter>
 
 </div>
 
 <ul className="dislpay-job">
+    
+    {/* send a props for displayNewJob Compoannt */}
   
     {
 
@@ -178,13 +206,7 @@ const randerRadio = (value)=>{
     }
 </ul>
 
-{/* <ul>
 
-    {
-
-        newjobs.itjobs.map(range=> (<ItJobs userData = {range} key={range.id}/>))
-    }
-</ul> */}
 
 
 

@@ -40,6 +40,9 @@ const Home = ()=>{
     <option value="Jaipur">Jaipur</option>
 </select>
 
+
+{/* using Link for itrete to any other componant */}
+
 <Link to ={"/findjob"}>
 
 <img src="homeimg/btn.png" alt="" className="btn-searc-img"/>

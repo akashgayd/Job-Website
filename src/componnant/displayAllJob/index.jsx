@@ -1,8 +1,9 @@
 
 import { Link } from 'react-router-dom';
 import './index.css';
-import JobDetails from '../jobDetails';
 
+
+//  give to the props for findjob componant    props(data) as name is userList
 
 const DisplayNewJob = (props)=>{
 const{userList} = props;
@@ -26,6 +27,7 @@ return(
 <p className='aunal-salary'>{userList.package_per_annum}</p>
 
 
+{/* this button can click the user user will see more details about this job */}
 
 <Link to={`${userList.id}`}>
 <button className='apppy-button-disply'>Apply</button>

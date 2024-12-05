@@ -9,6 +9,8 @@ const JobDetails = ()=>{
 
 const {id} = useParams();
 
+//  give the id from the database to use and get the all data in api
+
 const token = Cookies.get("jwtToken");
 
 
@@ -36,6 +38,7 @@ const[simjob,newjob] = useState({
 
 })
 
+//  their 4 useState represnt the the value inside on api we can unpack 1 by 1 and use inside on this api value for using useState
 
 useEffect(()=>{
 
@@ -43,6 +46,8 @@ useEffect(()=>{
     const userDetailsAllData = async()=>{
 
         const api = `https://apis.ccbp.in/jobs/${id}`;
+
+        //  id can be add api 
 
         const option = {
 
@@ -110,6 +115,9 @@ return(
 <br /><br /><br /><br /><br /><br /><br />
 </div>
 
+
+
+{/* fisrt container of the jon datails */}
 <div className="bg-contianer">
     <div className="jobdails-main-div container">
 
@@ -124,6 +132,10 @@ return(
     
 
 </div>
+
+
+
+
 <div className="job-discription">
 
 <p>{allvalue.alljob.job_description}</p>
@@ -142,6 +154,7 @@ return(
 
 
 {
+    //  use the map for using inside of array value without map we can not use it 
     newarray.Skills.map(each=>(
 <li key={each.id} className="skills-all-job">
 
@@ -161,6 +174,10 @@ return(
 <br />
 
 
+
+
+
+
 <div className="life-of-comp">
 
 <h5>Life of Company</h5>
@@ -172,10 +189,14 @@ return(
 </span>
 
 <button className="confirm-apply" onClick={AlrtBtn}>Apply</button>
+
+{/* add alert button for user can applied and get alert for job applied success */}
 </div>
 
 
     </div>
+
+
 
 
 <div className="similer-job">

@@ -1,5 +1,8 @@
 
 
+//  thiar is a protected rauter they can use to protect our website not a random person not acssess this website withaut having a key (token);
+//  first they can resistred afterthat they will be use this website
+
 import Cookies from "js-cookie";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
