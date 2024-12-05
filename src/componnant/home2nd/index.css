@@ -1,0 +1,137 @@
+.catagury-search{
+
+    width: 100%;
+    padding: 20px;
+
+}
+.heading{
+
+    width: 100%;
+    padding: 10px;
+    
+
+}
+
+.heading h1{
+    font-size: 22px;
+    font-weight: 800;
+    font-family: "Kanit", sans-serif;
+}
+.heading p{
+    font-size: 18px;
+    font-weight: 200;
+
+  font-family: "Kanit", sans-serif;
+}
+.heading h5{
+    color: rgb(44, 162, 178);
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+@media (min-width:1024px) {
+    
+
+    .heading h1{
+        font-size: 50px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .heading p{
+        font-size: 18px;
+         font-weight: 100;
+         opacity: 0.6;
+    }
+    .heading h5{
+        float: right;
+    }
+
+    .cat-componant{
+
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+     
+        gap: 40px;
+        
+
+    }
+    .job-mataral{
+
+
+
+      
+        background-color: rgba(183, 211, 202, 0.694);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 260px;
+        width: 260px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 20px;
+
+    }
+
+    .job-mataral:hover{
+
+        background-color: rgb(61, 110, 90);
+        width: 289px;
+        transition-duration: 0.9s;
+        color: white;
+    }
+    .job-mataral i{
+        font-size: 30px;
+
+    }
+
+
+}
+
+
+
+
+
+.cat-componant{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+ 
+    gap: 40px;
+    
+
+}
+.job-mataral{
+
+
+
+  
+    background-color: rgba(183, 211, 202, 0.694);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    width: 260px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+
+}
+
+.job-mataral:hover{
+
+    background-color: rgb(61, 110, 90);
+    width: 289px;
+    transition-duration: 0.9s;
+    color: white;
+}
+.job-mataral i{
+    font-size: 30px;
+
+}

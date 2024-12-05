@@ -1,0 +1,126 @@
+.br-tags{
+    display: none;
+
+}
+.main-blog-cont{
+    padding: 20px;
+}
+.main-blog-cont h1{
+
+    font-weight: 800;
+    font-size: 28px;
+    font-style: oblique;
+}
+.blog-advice{
+
+    font-size: 18px;
+    font-weight: 100;
+
+}
+.carausal-blog{
+
+    display: none;
+}
+.jobs-student{
+    width: 100%;
+    padding: 20px;
+    text-align: justify;
+    background-color: rgb(240, 245, 219);
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+}
+.jobs-student img{
+    width: 100%;
+    border-radius: 20px;
+    height: 40vh;
+    margin-bottom: 10px;
+}
+.jobs-student h4{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media (min-width:1024px) {
+    
+    .br-tags{
+
+        display: block;
+    }
+    .main-blog-cont{
+        padding: 20px;
+    }
+    .main-blog-cont h1{
+    
+        font-weight: 800;
+        font-size: 48px;
+        font-style: oblique;
+    }
+    .blog-advice{
+    
+        font-size: 25px;
+        font-weight: 100;
+        
+    }
+    .carausal-blog{
+
+        width: 100%;
+        height: 50%;
+        border-radius: 30px;
+        display: block;
+        
+      
+    }
+    .carausal-blog1{
+
+        box-shadow: 1px 3px 5px black;
+        border-radius: 40px;
+    }
+    .cr-itm{
+
+        width: 100%;
+        height: 70vh;
+             
+        
+
+
+    }
+   
+    .cr-itm img{
+        width: 100%;
+        height: 100vh;
+        border-radius: 30px;
+        border-top-left-radius: 40px;
+    }
+    .color{
+        color: rgb(216, 204, 219);
+        font-weight: 800;
+        display: none;
+    }
+    .jobs-student{
+        
+        padding: 20px;
+        text-align: justify;
+        background-color: rgb(230, 236, 201);
+        border-radius: 10px;
+        width: 27%;
+        margin-bottom: 15px;
+    
+    }
+    .jobs-student img{
+        width: 100%;
+        border-radius: 20px;
+        height: 30vh;
+        margin-bottom: 10px;
+        
+    }
+    .jobs-student h4{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 700;
+    }
+    
+    .jobs-all-stu{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}

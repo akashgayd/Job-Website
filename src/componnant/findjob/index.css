@@ -1,0 +1,140 @@
+.bg-job-color{
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+   
+}
+
+.search-job-user{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.search-job-user h2{
+    text-align: center;
+    font-family: "Roboto", serif;
+}
+
+.search-job-user p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.search-job-input-user{
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: space-between;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    align-self: center;
+
+}
+.search-job-input-user select{
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    /* border: 1px solid lightgray; */
+    outline: none;
+    border: none;
+}
+.search-job-input-user input{
+
+    width: 100%;
+    height: 40px;
+   border: none;
+   outline: none;
+    padding: 10px;
+}
+.search-job-input-user button{
+
+    height: 40px;
+    width: 100%;
+    background-color: rgb(36, 168, 126);
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+
+@media (min-width:1024px) {
+    
+    .search-job-user{
+       
+        
+       text-align: center;  
+
+
+    }
+
+    .search-job-user h2{
+        text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 47px;
+        font-weight: 800;
+
+    }
+    .search-job-user p{
+        text-align: center;
+        font-size: 22px;
+        opacity: 0.7;
+
+    }
+    .search-job-input-user{
+
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        margin-bottom: 20px;
+        text-align: center;
+        align-items: center;
+        border-radius: 70px;
+        padding: 20px;
+        justify-content: space-between;
+    
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        align-self: center;
+    
+    }
+    .search-job-input-user button{
+
+        height: 60px;
+        width: 50%;
+    }
+    .filter-cont{
+
+        width: 20%;
+
+        background-color: rgb(233, 181, 108);
+        padding: 20px;
+       border-radius: 30px;
+       color: white;
+       float: right;
+       height: 70vh;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       margin-left: 20px;
+       color: black;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+
+       
+    }
+    .display-job{
+
+        margin-right: 25px;
+    }
+}

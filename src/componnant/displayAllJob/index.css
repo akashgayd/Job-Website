@@ -1,0 +1,57 @@
+.display-all-job{
+
+    width: 100%;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 20px;
+  
+    margin-bottom: 20px;
+
+    position: relative;
+    top: 20%;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+
+
+
+}
+
+.comp-img img{
+width: 50px;
+}
+.aunal-salary{
+
+    float: right;
+    font-weight: 700;
+   
+}
+.apppy-button-disply{
+
+    width: 100px;
+    height: 40px;
+    background-color: rgb(21, 146, 104);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-weight: 700;
+}
+
+
+@media (min-width:1024px) {
+    
+
+    .display-all-job{
+
+        width: 60%;
+        border: 1px solid lightgray;
+        border-radius: 20px;
+      
+        margin-bottom: 20px;
+    
+        position: relative;
+        top: 20%;
+        padding: 15px;
+    
+    
+    
+    }
+}
