@@ -75,7 +75,7 @@ const Login = ()=>{
        
             <form onSubmit={onLoginPage} className="login-form">
 
-            <img src="public/imeges/login/signin-fig (1).png" className="login-img"/>
+            <img src="homeimg/Login-PNG.png" className="login-img"/>
 
             <h3>Welcome!</h3>
 

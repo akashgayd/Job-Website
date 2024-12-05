@@ -30,7 +30,7 @@ const AllJobsContainer =()=>{
 
 <div className='interwiew-cont-img'>
 
-<img src="public/homeimg/interwiew.avif" alt="" />
+<img src="homeimg/interwiew.avif" alt="" />
 
 </div>
 

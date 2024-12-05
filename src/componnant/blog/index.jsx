@@ -33,14 +33,14 @@ const Blog = ()=>{
   </ol>
   <div className="carousel-inner">
     <div className="carousel-item active cr-itm">
-      <img src="public/homeimg/job5.avif"  alt="..."/>
+      <img src="homeimg/job5.avif"  alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h2 className='color'>How to find your first job out of college</h2>
         <p className='color'>It’s keyword-optimized, industry-specified, full of achievements, backed by data, and double-checked by an expert. If it’s none of these things, stop right here and learn how to get your resume...</p>
       </div>
     </div>
     <div className="carousel-item cr-itm">
-      <img src="public/homeimg/job7.jpg"  alt="..."/>
+      <img src="homeimg/job7.jpg"  alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h2 className='color'>100 top interview questions  be prepared</h2>
 

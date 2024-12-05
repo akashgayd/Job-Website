@@ -25,7 +25,7 @@ const PopulorCity =()=>{
 
 
 
-<img src="public/homeimg/1.webp"/>
+<img src="homeimg/1.webp"/>
 
 <h4>Gurugram HC</h4>
 
@@ -41,7 +41,7 @@ const PopulorCity =()=>{
 
 
 
-<img src="public/homeimg/2.webp"/>
+<img src="homeimg/2.webp"/>
 
 <h4>Mumbai Ctr</h4>
 
@@ -58,7 +58,7 @@ const PopulorCity =()=>{
 
 
 
-<img src="public/homeimg/3.webp"/>
+<img src="homeimg/3.webp"/>
 
 <h4>New York US</h4>
 
@@ -81,7 +81,7 @@ const PopulorCity =()=>{
 
 
 
-<img src="public/homeimg/4.jpeg"/>
+<img src="homeimg/4.jpeg"/>
 
 <h4>Chennai F-R-D</h4>
 
@@ -102,7 +102,7 @@ const PopulorCity =()=>{
 
 
 
-<img src="public/homeimg/5.jpg"/>
+<img src="homeimg/5.jpg"/>
 
 <h4>Banglore Hub</h4>
 
@@ -120,7 +120,7 @@ const PopulorCity =()=>{
 
 
 
-<img src="public/homeimg/6.avif"/>
+<img src="homeimg/6.avif"/>
 
 <h4> Dubai Hub</h4>
 
@@ -141,7 +141,7 @@ const PopulorCity =()=>{
 
 
 
-<img src="public/homeimg/7.png"/>
+<img src="homeimg/7.png"/>
 
 <h4> Delhi Pr</h4>
 
@@ -160,7 +160,7 @@ const PopulorCity =()=>{
 
 
 
-<img src="public/homeimg/8.webp"/>
+<img src="homeimg/8.webp"/>
 
 <h4>Nagpur Ctr</h4>
 
@@ -179,7 +179,7 @@ const PopulorCity =()=>{
 
 
 
-<img src="public/homeimg/9.png"/>
+<img src="homeimg/9.png"/>
 
 <h4>China </h4>
 
@@ -200,7 +200,7 @@ const PopulorCity =()=>{
 
 
 
-<img src="public/homeimg/10.jpg"/>
+<img src="homeimg/10.jpg"/>
 
 <h4> singapore</h4>
 
@@ -219,7 +219,7 @@ const PopulorCity =()=>{
 
 
 
-<img src="public/homeimg/11.jpg"/>
+<img src="homeimg/11.jpg"/>
 
 <h4> Ludhiyana</h4>
 
@@ -237,7 +237,7 @@ const PopulorCity =()=>{
 
 
 
-<img src="public/homeimg/12.jpg"/>
+<img src="homeimg/12.jpg"/>
 
 <h4>New Mubmai</h4>
 

@@ -42,7 +42,7 @@ const Home = ()=>{
 
 <Link to ={"/findjob"}>
 
-<img src="public/homeimg/btn.png" alt="" className="btn-searc-img"/>
+<img src="homeimg/btn.png" alt="" className="btn-searc-img"/>
 
 </Link>
 </div>
@@ -149,7 +149,7 @@ const Home = ()=>{
 
 <div className="home-bg">
 
-<img src="public/homeimg/home-img.png" alt="" />
+<img src="homeimg/home-img.png" alt="" />
 
 </div>
 
