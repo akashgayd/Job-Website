@@ -85,6 +85,8 @@ const Login = ()=>{
 <input type="password" placeholder="Password" onChange={(e)=>{setvalue({...allvalue,password:e.target.value})}} />
 <br />
                 <button type="submit">Login</button>
+
+                <p style={{color:"red"}}>{allvalue.errorMsg}</p>
             </form>
         </div>
     )

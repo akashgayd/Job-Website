@@ -105,12 +105,13 @@ console.log("the pasr code will be run");
 //  search button function
 
 const userSearchJob =(e)=>{
-if(e.key === "Enter" || e.key === "Find Job"){
+if(e.key === "Enter"){
+e.preventDefault();
 
     setvalue({...allvalue,userSearch:e.target.value})
 
-}
 
+}
 
 }
 
@@ -174,7 +175,8 @@ const randerRadio = (value)=>{
 <br />
 
 
-<button onKeyUp={userSearchJob}>Find Job</button>
+
+
 
 </div>
 
